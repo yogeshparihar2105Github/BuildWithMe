@@ -1,0 +1,25 @@
+body {
+    background-image: url('myPhoto.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    background-position: -140% center; /* Aligns image to the left, centered vertically */
+}
+.container {
+    height: 750px;
+}
+.name{
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.proff{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}

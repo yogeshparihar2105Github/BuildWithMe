@@ -1,0 +1,31 @@
+.parent-download {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform: translate(250px, 50px);
+}
+.ButtonBg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 40px;
+    background-color : #F0F1F1; 
+    gap:20px;
+    cursor: pointer;
+}
+.ButtonBg:hover {
+    background-color: #f0f1f1e3;
+    box-shadow: 3px 3px 15px 2px rgba(0, 0, 0, 0.2); 
+}
+.DownloadIcon{
+    margin-left: 10px;
+}
+.downloadText{
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
