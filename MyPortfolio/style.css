@@ -3,7 +3,15 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: contain;
-    background-position: -140% center; /* Aligns image to the left, centered vertically */
+    background-position: -150% center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .container {
     height: 750px;
@@ -16,7 +24,6 @@ body {
     transform: translate(-50%, -50%);
     font-size: 50px;
     font-weight: 500;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .proff{
     font-size: 20px;

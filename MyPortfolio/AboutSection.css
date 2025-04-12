@@ -1,0 +1,45 @@
+.about-section{
+    width: 50%;
+    margin-left: 50%;
+   align-items: flex-start;
+}
+.Skills{
+    width: 100%;
+}
+.Title{
+    font-size: 40px;
+    color: grey;
+    margin-bottom: 40px;
+}
+.Summary{
+    font-size: 15px;
+    color: grey;
+    margin-bottom: 30px;
+}
+.skill-name{
+    font-size: 20px;
+    color: grey;
+}
+.slider-bg{
+    margin-top: 10px;
+    width: 100%;
+    background-color:#F1F2F2;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.silder-fill {
+    background-color: #616161;
+}
+.C {
+    width: 85%;
+}
+.Java {
+    width: 95%;
+}
+.Golang {
+    width: 90%;
+}
+.value-percentage{
+    color: white;
+    text-align: center;
+}
